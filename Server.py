@@ -1,9 +1,7 @@
 import socket
 import logging
 
-# (4)Logging format
 logging.basicConfig(filename="socket.log", level=logging.DEBUG, format="%(asctime)s:%(levelname)s:%(message)s ")
-
 
 def ServerBackend():
     host = "127.0.0.1"
